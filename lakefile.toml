@@ -1,0 +1,20 @@
+name = "theorem3"
+version = "0.1.0"
+keywords = ["math", "robotics"]
+defaultTargets = ["Core", "Theorem3"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+path = "../../mathlib"
+
+[[lean_lib]]
+name = "Core"
+
+[[lean_lib]]
+name = "Theorem3"

@@ -1,0 +1,9 @@
+# Lean 构建产物
+.lake/
+*.olean
+*.ilean
+*.olean.private
+*.olean.server
+
+# 临时
+*.tmp
